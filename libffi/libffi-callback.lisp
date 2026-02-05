@@ -43,4 +43,4 @@ and stores the result in ret-ptr."
 
 (defun %defcallback-symbol (name)
   "Generate a unique symbol name for the libffi callback wrapper."
-  (intern (format nil "~A-FSBV" (remove #\: (string name))))
+  (intern (format nil "~A-FSBV" (remove #\: (string name)))))

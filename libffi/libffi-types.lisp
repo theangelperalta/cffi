@@ -75,7 +75,6 @@
  (flags          "flags"     :type :unsigned-int))
 
 (cstruct ffi-closure "ffi_closure"
- (tramp          "tramp"     :type :pointer)
  (cif            "cif"       :type ffi-cif)
  (fun            "fun"       :type :pointer)
  (user-data      "user_data" :type :pointer))
